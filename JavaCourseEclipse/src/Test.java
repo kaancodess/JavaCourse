@@ -2,16 +2,19 @@
 public class Test {
 
 	public static void main(String[] args) {
-		car car1 = new car();
+		/*car car1 = new car();
 
-		car1.color = "White";
-		car1.wheels = 4;
-		car1.doors = 4;
-		car1.engine = "1.4";
-		car1.brand = "Toyota";
-
-		System.out.println(car1.engine);
-
+		car1.setBrand("Toyota");
+		System.out.println("The brand of the car is " + car1.getBrand());
+		
+		car1.setDoors(0);*/
+		
+		/*car car2;
+		
+		car2.setDoors(-4);*/
+		
+		/*car car3 = null;
+		
+		car3.setBrand("Toyota"); // null pointer expection error*/
 	}
-
 }
