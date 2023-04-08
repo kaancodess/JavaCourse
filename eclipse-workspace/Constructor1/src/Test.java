@@ -2,14 +2,13 @@
 public class Test {
 
 	public static void main(String[] args) {
-		Account account2 = new Account("1231412",1000.0,"Kaan","kaancodes@gmail.com","2141948210");
 		
-		//account2.deposit(500);
+		Account account2 = new Account("Kaan","kaancodes@gmail.com","142132511");
 		
-		//account2.withdraw(700);
+		/*System.out.println(account2.getEmail());
+		System.out.println(account2.getBalance());*/
 		
-		account2.withdraw(2000);
-		
+		account2.show_information();
 	}
 	
 }
