@@ -16,7 +16,6 @@ public class ATM {
 			if(login.login(account)) {
 				System.out.println("You login succesfully");
 				break;
-				
 			}else {
 				System.out.println("your username or password is wrong please try again");
 				login_right -= 1;
